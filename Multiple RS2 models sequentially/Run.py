@@ -11,7 +11,7 @@ import traceback
 RS2_PORT = 60054
 
 # Change this to the folder containing your seven RS2 models
-MODEL_FOLDER = Path(r"C:\RS2_Temp\Ivrindi\475-yr\New")
+MODEL_FOLDER = Path(r"C:\RS2_Temp\MyProject\Models")
 
 # List the files in the exact order in which they should be computed
 MODEL_FILES = [

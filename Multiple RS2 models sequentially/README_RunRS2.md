@@ -59,7 +59,7 @@ Use a port available for the RS2 scripting connection.
 ### 2. Model folder
 
 ```python
-MODEL_FOLDER = Path(r"C:\RS2_Temp\Ivrindi\475-yr\New")
+MODEL_FOLDER = Path(r"C:\RS2_Temp\MyProject\Models")
 ```
 
 Set this path to the folder containing the RS2 `.fez` model files.
@@ -105,13 +105,13 @@ RS2 sequential batch-compute log
 ==================================================
 
 ----- Model 1 of 7 -----
-Opening: C:\RS2_Temp\Ivrindi\475-yr\New\RSN187-315.fez
-Computing: C:\RS2_Temp\Ivrindi\475-yr\New\RSN187-315.fez
-COMPLETED: C:\RS2_Temp\Ivrindi\475-yr\New\RSN187-315.fez
+Opening: C:\RS2_Temp\MyProject\Models\RSN187-315.fez
+Computing: C:\RS2_Temp\MyProject\Models\RSN187-315.fez
+COMPLETED: C:\RS2_Temp\MyProject\Models\RSN187-315.fez
 
 ==================================================
 Finished. Successful: 7; Failed/skipped: 0
-Log file: C:\RS2_Temp\Ivrindi\475-yr\New\batch_compute_log.txt
+Log file: C:\RS2_Temp\MyProject\Models\batch_compute_log.txt
 ```
 
 ## Error Handling

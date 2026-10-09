@@ -1,0 +1,4 @@
+# PyInstaller build output (regenerated on every build; embeds local paths)
+build/
+__pycache__/
+*.pyc

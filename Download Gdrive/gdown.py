@@ -12,7 +12,7 @@ with sync_playwright() as p:
     page = browser.new_page()
 
     page.goto(
-        "https://drive.google.com/drive/u/2/folders/1cnNd6hWsZxNNJCRETJ0QgdL6x32cgnrm"
+        "https://drive.google.com/drive/folders/YOUR_FOLDER_ID"  # replace with your folder link
     )
 
     input("Press Enter after Drive has loaded...")
